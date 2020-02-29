@@ -11,6 +11,7 @@ class DealerLoginComponet extends Component {
             email: "",
             password: ""
         }
+        this._onSubmit = this._onSubmit.bind(this)
     }
 
     _onSubmit() {
